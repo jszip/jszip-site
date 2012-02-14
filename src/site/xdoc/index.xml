@@ -29,12 +29,12 @@
             <li class="hero-unit span12" style="height:200px">
               <h1>Consume JavaScript packages from Maven builds</h1>
               <p>Just add the &lt;dependency&gt; and go</p>
-              <p><small>We'll even aggregate all the scripts into a single minified file for you</small></p>
+              <p><small>We can even aggregate all the scripts into a single minified file for you</small></p>
             </li>
             <li class="hero-unit span12" style="height:200px">
               <h1>Use Maven to build JavaScript packages</h1>
               <p>Just set &lt;packaging&gt;jszip&lt;/packaging&gt; and go</p>
-              <p><small>We'll even generate the package-info.json for you</small></p>
+              <p><small>We'll even generate the package.json for you</small></p>
             </li>
             <li class="hero-unit span12" style="height:200px">
               <h1>Live development</h1>
