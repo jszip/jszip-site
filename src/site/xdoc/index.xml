@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2011-2012 Stephen Connolly.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>JSZip Project</title>
+    <author>Stephen Connolly</author>
+  </properties>
+  <body>
+    <section name="">
+      <div>
+        <div class="jCarouselLite">
+          <ul>
+            <li class="hero-unit span12" style="height:200px">
+              <h1>Consume JavaScript packages from Maven builds</h1>
+              <p>Just add the &lt;dependency&gt; and go</p>
+              <p><small>We'll even aggregate all the scripts into a single minified file for you</small></p>
+            </li>
+            <li class="hero-unit span12" style="height:200px">
+              <h1>Use Maven to build JavaScript packages</h1>
+              <p>Just set &lt;packaging&gt;jszip&lt;/packaging&gt; and go</p>
+              <p><small>We'll even generate the package-info.json for you</small></p>
+            </li>
+            <li class="hero-unit span12" style="height:200px">
+              <h1>Live development</h1>
+              <p>Just hit reload</p>
+              <p><small>Works across all modules within the Maven reactor</small></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript" src="./scripts/jcarousellite_1.0.1.min.js"/>
+      <script type="text/javascript" src="./scripts/jcarousellite-activate.js"/>
+    </section>
+    <section name="Welcome to the JSZip Project">
+      <p>
+        The JSZip project is exploring an alternative way of packaging JavaScript modules in order to make consuming
+        dependent JavaScript modules easier for people developing with Apache Maven 2 &amp; 3.
+      </p>
+    </section>
+  </body>
+</document>
