@@ -55,7 +55,7 @@
     <div id="Welcome to the JSZip Project">
       <p>
         The JSZip project is exploring an alternative way of packaging JavaScript modules in order to make consuming
-        dependent JavaScript modules easier for people developing with Apache Maven 2 &amp; 3.
+        dependent JavaScript modules easier for people developing with Apache Maven 3.
       </p>
     </div>
   </body>
