@@ -30,6 +30,10 @@ Maven sure that Maven is at least `3.0.4`
     Apache Maven 3.0.4 (r1232337; 2012-01-17 08:44:56+0000)
     ...
 
+## Lazy?
+
+The source code from this example is available on [Github][6]
+
 ## Create a root module
 
 Use your favourite editor to create a file called `pom.xml` in a new directory that will hold this project.
@@ -463,6 +467,21 @@ with the following content:
 
 ## Start it up
 
+Here is what your file structure should be at this point:
+
+    pom.xml
+    client/pom.xml
+    client/src/main/js/scripts/main.js
+    client/src/main/resources/stylesheets/main.css
+    server/pom.xml
+    server/src/main/java/localhost/quickstart/Api.java
+    server/src/main/java/localhost/quickstart/Greeter.java
+    server/src/test/java/localhost/quickstart/GreeterTest.java
+    webapp/pom.xml
+    webapp/src/build/js/profile.js
+    webapp/src/main/webapp/index.html
+    webapp/src/main/webapp/WEB-INF/web.xml
+
 We're going to start it up at the in live development mode. We don't know the state of the tests, so we're not going
 to bother with running them, we just want to be able to play with the files.
 
@@ -526,6 +545,9 @@ Here is what you need to know about the live development mode:
   check the shell window to see that the JSZip plugin was able to apply the change, then hit reload. (Some changes
   to the `pom.xml` cannot be reflected in live development mode as they affect the sequence of the reactor, with
   the result that the reactor has to be restarted)
+  4. If the lifecycle is advanced to the `package` phase or beyond, then you will no longer be in “Live development”
+  mode as the reactor will have replaced the attached directories with the built `.zip` and `.jar` files. If you can
+  convince your IDE or a second Maven instance to rebuild those files though, then the changes will be picked up live.
 
 ### Making the optimized release build
 
@@ -570,3 +592,4 @@ don't need to write those dependencies yourself.
   [3]: http://repo1.maven.org/maven2/
   [4]: http://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
   [5]: https://github.com/jrburke/r.js/
+  [6]: https://github.com/jszip/quickstart-basic
