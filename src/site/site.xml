@@ -39,6 +39,7 @@
 
     <menu name="Main">
       <item name="Welcome" href="index.html"/>
+      <item name="Quickstart" href="quickstart/index.html"/>
     </menu>
 
     <menu name="Repackaged Modules">

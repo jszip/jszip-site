@@ -57,6 +57,9 @@
         The JSZip project is exploring an alternative way of packaging JavaScript modules in order to make consuming
         dependent JavaScript modules easier for people developing with Apache Maven 3.
       </p>
+      <p class="pagination-centered">
+        <a class="btn btn-primary btn-large" href="quickstart/">Let's get started »</a>
+      </p>
     </div>
   </body>
 </document>
