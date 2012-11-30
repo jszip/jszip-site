@@ -84,7 +84,7 @@ The file should look like this:
           <plugin>
             <groupId>org.jszip.maven</groupId>
             <artifactId>jszip-maven-plugin</artifactId>
-            <version>0.1-alpha-4</version>
+            <version>0.1-alpha-5</version>
             <extensions>true</extensions>
           </plugin>
         </plugins>
@@ -311,9 +311,9 @@ Create the file `client/src/main/js/scripts/main.js` with the following content:
     postRequest.onreadystatechange = function () {
         if (postRequest.readyState == 4) {
             if (postRequest.status == 200) {
-                document.getElementById("result").innerText = postRequest.responseText;
+                document.getElementById("result").textContent = postRequest.responseText;
             } else {
-                document.getElementById("result").innerTest = "An error has occurred";
+                document.getElementById("result").textContent = "An error has occurred";
             }
         }
     };
@@ -408,8 +408,6 @@ We will give the [r.js][5] optimizer profile configuration by creating the file 
 the following content:
 
     ({
-        appDir:"/virtual",
-        dir:"/target",
         baseUrl:"scripts",
         optimize: "closure",
         optimizeCss: "standard",
@@ -501,7 +499,7 @@ to bother with running them, we just want to be able to play with the files.
 
 ... (skip some of the logs) ...
 
-    [INFO] --- jszip-maven-plugin:0.1-alpha-4:run (default-cli) @ quickstart-webapp ---
+    [INFO] --- jszip-maven-plugin:0.1-alpha-5:run (default-cli) @ quickstart-webapp ---
     [INFO] Starting JSZip run: module localhost:quickstart-webapp
     Nov 28, 2012 11:43:55 AM org.eclipse.jetty.server.Server doStart
 
@@ -561,10 +559,10 @@ see that it is now a minified versions:
     $ unzip -p webapp/target/quickstart-webapp-1.0-SNAPSHOT.war scripts/*
     var postRequest=new XMLHttpRequest;postRequest.onreadystatechange=function(){4=
     =postRequest.readyState&&(200==postRequest.status?document.getElementById("resu
-    lt").innerText=postRequest.responseText:document.getElementById("result").inner
-    Test="An error has occurred")};postRequest.open("POST","api/greeter",!0);postRe
-    quest.setRequestHeader("Content-type","application/json");postRequest.send('["S
-    ally","Harry","Fred"]');define("main",function(){});
+    lt").textContent=postRequest.responseText:document.getElementById("result").tex
+    tContent="An error has occurred")};postRequest.open("POST","api/greeter",!0);po
+    stRequest.setRequestHeader("Content-type","application/json");postRequest.send(
+    '["Sally","Harry","Fred"]');define("main",function(){});
 
 And the CSS file has been minified also:
 
