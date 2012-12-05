@@ -59,6 +59,7 @@
       </p>
       <p class="pagination-centered">
         <a class="btn btn-primary btn-large" href="quickstart/">Let's get started »</a>
+        <a class="btn btn-large" href="quickstart-knockback/">More examples »</a>
       </p>
     </div>
   </body>

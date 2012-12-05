@@ -584,6 +584,8 @@ module into its own module and define inter-module dependencies. Maven will take
 dependencies for you. For example a `backbone.js` module could depend on `jquery` and `underscore` so that you
 don't need to write those dependencies yourself.
 
+Check out the [next example][7] for some ideas
+
 
   [1]: http://localhost:8080/
   [2]: http://maven.apache.org/plugins/maven-release-plugin/
@@ -591,3 +593,4 @@ don't need to write those dependencies yourself.
   [4]: http://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
   [5]: https://github.com/jrburke/r.js/
   [6]: https://github.com/jszip/quickstart-basic
+  [7]: http://jszip.org/quickstart-knockback/
