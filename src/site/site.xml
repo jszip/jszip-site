@@ -39,7 +39,8 @@
 
     <menu name="Main">
       <item name="Welcome" href="index.html"/>
-      <item name="Quickstart" href="quickstart/index.html"/>
+      <item name="Basic Quickstart" href="quickstart/index.html"/>
+      <item name="Knockback+Hogan+RequireJS example" href="quickstart-knockback/index.html"/>
     </menu>
 
     <menu name="Repackaged Modules">
@@ -47,6 +48,7 @@
       <item name="jQuery" href="redist/jquery/"/>
       <item name="json2" href="redist/json2/"/>
       <item name="Knockout" href="redist/knockout/"/>
+      <item name="Knockback" href="redist/knockback/"/>
       <item name="RequireJS" href="redist/require/"/>
       <item name="RequireJS/AMD Text plugin" href="redist/require-text-plugin/"/>
       <item name="RequireJS/AMD I18N plugin" href="redist/require-i18n-plugin/"/>
