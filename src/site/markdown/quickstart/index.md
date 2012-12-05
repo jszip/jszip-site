@@ -84,7 +84,7 @@ The file should look like this:
           <plugin>
             <groupId>org.jszip.maven</groupId>
             <artifactId>jszip-maven-plugin</artifactId>
-            <version>0.1-alpha-5</version>
+            <version>0.1-alpha-6</version>
             <extensions>true</extensions>
           </plugin>
         </plugins>
