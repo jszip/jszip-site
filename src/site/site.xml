@@ -45,15 +45,22 @@
 
     <menu name="Repackaged Modules">
       <item name="About Repackaged Modules" href="redist/"/>
+      <item name="Analytics.js" href="redist/analytics/"/>
+      <item name="Backbone" href="redist/backbone/"/>
+      <item name="Backbone.ModelRef" href="redist/backbone-modelrev/"/>
+      <item name="Backbone-relational" href="redist/backbone-relational/"/>
+      <item name="Bootstrap" href="redist/bootstrap/"/>
+      <item name="Hogan" href="redist/hogan/"/>
       <item name="jQuery" href="redist/jquery/"/>
+      <item name="jQuery Migrate" href="redist/jquery-migrate/"/>
       <item name="json2" href="redist/json2/"/>
       <item name="Knockout" href="redist/knockout/"/>
       <item name="Knockback" href="redist/knockback/"/>
       <item name="RequireJS" href="redist/require/"/>
-      <item name="RequireJS/AMD Text plugin" href="redist/require-text-plugin/"/>
-      <item name="RequireJS/AMD I18N plugin" href="redist/require-i18n-plugin/"/>
       <item name="RequireJS/AMD domReady plugin" href="redist/require-domready-plugin/"/>
+      <item name="RequireJS/AMD I18N plugin" href="redist/require-i18n-plugin/"/>
       <item name="RequireJS/AMD step plugin" href="redist/require-step-plugin/"/>
+      <item name="RequireJS/AMD Text plugin" href="redist/require-text-plugin/"/>
       <item name="Underscore.js" href="redist/underscore/"/>
     </menu>
 
