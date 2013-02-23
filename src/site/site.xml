@@ -56,6 +56,7 @@
       <item name="json2" href="redist/json2/"/>
       <item name="Knockout" href="redist/knockout/"/>
       <item name="Knockback" href="redist/knockback/"/>
+      <item name="Q" href="redist/q"/>
       <item name="RequireJS" href="redist/require/"/>
       <item name="RequireJS/AMD domReady plugin" href="redist/require-domready-plugin/"/>
       <item name="RequireJS/AMD I18N plugin" href="redist/require-i18n-plugin/"/>
