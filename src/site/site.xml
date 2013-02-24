@@ -46,6 +46,7 @@
     <menu name="Repackaged Modules">
       <item name="About Repackaged Modules" href="redist/"/>
       <item name="Analytics.js" href="redist/analytics/"/>
+      <item name="AngularJS" href="redist/angularjs"/>
       <item name="Backbone" href="redist/backbone/"/>
       <item name="Backbone.ModelRef" href="redist/backbone-modelrev/"/>
       <item name="Backbone-relational" href="redist/backbone-relational/"/>
